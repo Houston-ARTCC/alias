@@ -17,6 +17,8 @@ The alias is split into logical sections so individual parts can be updated with
 - `loa_recall.txt` — LOA recall, coordination notes, QRC links, and specialty-to-specialty routing reminders.
 
 ## Created by FE Buddy
+Facility Engineer's no longer need to maintain these files - FE Buddy automatically pulls updated information each time an AIRACT cycle update occurs.
+
 ### Airports
 One alias command per airport FAA ID, and one more for an airport whose ICAO ID is different.
 
