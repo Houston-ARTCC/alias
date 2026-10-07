@@ -21,6 +21,7 @@ The alias is split into logical sections so individual parts can be updated with
 One alias command per airport FAA ID, and one more for an airport whose ICAO ID is different.
 
 Example: `.aptkiah`
+
 <img width="497" height="482" alt="image" src="https://github.com/user-attachments/assets/b6c21a7d-7daf-4e6f-8197-497d2e6c5a96" />
 
 ### Airways
@@ -37,6 +38,7 @@ Example: `.ausILEXYf` - .FF HOOKK ILEXY JAYJO ASHRR ZENZI
 Writes a `.nav<ID>` command per NAVAID that prints it's name, type, frequency, and ARTCC.
 
 Example: `.navIAH`
+
 <img width="327" height="153" alt="image" src="https://github.com/user-attachments/assets/0e0725ff-1e1f-4bc3-9340-16de907eb3de" />
 
 ### Procedures
@@ -48,6 +50,7 @@ Example: `.ausI18Lc` - opens https://aeronav.faa.gov/d-tpp/2610/00556IL18L.PDF *
 A card for every operator in the FAA telephony pages: its three-letter designator, callsign, company, and country. Known VATSIM Virtual Airlines (sourced from Vatsim Radar) included.
 
 Example: `.idDAL`
+
 <img width="445" height="248" alt="image" src="https://github.com/user-attachments/assets/451bfd34-a6fb-426f-af99-918a94cc1b4d" />
 
 ## Repo workflow
