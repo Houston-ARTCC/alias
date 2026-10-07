@@ -1,4 +1,3 @@
-# alias
 # VATSIM Houston ARTCC Alias
 
 This repository holds the source files for the Houston ARTCC alias in a modular, easily editable format. Rather than storing one massive CRC-ready alias file, each section is maintained separately here and assembled by FE Buddy into the final output used in operations.
