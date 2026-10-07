@@ -1,0 +1,113 @@
+; ---LOA RECALL---
+.rsgszfw .note <****Type RSGsZFW1 for DFW/DAL, or RSGsZFW2 for all others****>
+.rsgszfw1 .note ROCKSPRINGS SPECIALTY to D10\n  <DFW-N RNAV Jet> GUTZZ SOCKK# | GUTZZ AOB FL290\n  <DFW-N RNAV Prop> GUTZZ ZROBA# | GUTZZ AOB FL290\n  <DFW-N Non-RNAV> JUMBO TTT | JUMBO AOB FL290\n  <DFW-S RNAV Jet> GUTZZ BOOVE# | D350\n  <DFW-S RNAV Prop> GUTZZ ZROBA# | D350\n  <DFW-S Non-RNAV> JUMBO TTT | D350\n  <DAL-N RNAV Jet> DITSY DRYYE# | DITSY AOB FL310\n  <DAL-S RNAV Jet> DITSY BACHR# | DITSY AOB FL310\n  <DAL RNAV Prop> DITSY SWVAY# | DITSY AOB FL310\n  <DAL Non-RNAV> JUMBO TTT | JUMBO AOB FL310
+.rsgszfw2 .note ROCKSPRINGS SPECIALTY to ZFW (non D10)\n  <DSATS RNAV> SPPAD/BIEST LIKES# or DITSY SWVAY# | SPPAD/BIEST AOB270 or DITSY AOB310\n  <DSATS Non-RNAV> JUMBO TTT | JUMBO AOB FL270\n  <ABI/DYS> From sectors 74/76 AOB FL280\n  <MAFT> West of V68 (JCT-SJT) AOB FL260\n  <SJTT/GRKT> Direct Destination D130, or at a lower altitude correct for direction
+.rsgsauss .note ROCKSPRINGS SPECIALTY to AUSTIN SPECIALTY\n  <IAH> East FLow AOB FL330 established at an odd alttitude\n  <HOU> KIDDZ5 AOB FL370 established at an odd alttitude\n  <I90> SNDAY1 AOB FL290 established at an odd altitude\n  <I90> Non-RNAV STARs AOB aircraft on RNAV STARs
+.rsgscrps .note ROCKSPRINGS SPECIALTY to CORPUS SPECIALTY\n  <IAH> East Flow AOB FL350\n  <DWH, CXO, T78, 6R3> AOB FL290 & all other I90 arrivals\n  <I90 SSATs> AOB KHOU arrivals\n  <I90> PSX-95/SOTEX-84 control for vectors & descent in "Dump Box"\n  <CRPT or NQIT> D240\n  <To CRP-59/SOTEX-84> From ALAMO-74/SLIMM-76 westbound altitudes only
+.rsgszab .note ROCKSPRINGS SPECIALTY to ZAB\n  <NO REQUIRED ROUTES/ALTITUDES>
+.rsgsmty .note ROCKSPRINGS SPECIALTY to MONTERREY\n  <All Aircraft> Direct PNG at a westbound altitude\n  <Radar Handoffs> RF (CID) MTY, then ASEL aircraft and type alias command "homex (SectorID) (FIX)"
+.rsgsaust .note ROCKSPRINGS SPECIALTY to AUSTIN TRACON\n  <LAIKS#> Jets DV\n  <DXEEE3> Jets & T-Props DV, handoff to SATT\n  <SZAGI#> Jets cross CADGI @ 7,000 | All others cross CADGI @ 6,000\n  <KGYB, 3T5, 50R> From the west direct destination D130\n  <All Airports> From the west via KALLA direct. Jets KALLA @ 7k, Others KALLA @ 6k\n  <All Airports> From the southwest via SAT V550 CWK, cross PINCH @ 14,000\n  <All Airports> From STV VORTAC via STV CWK Direct level at 7,000
+.rsgsdlft .note ROCKSPRINGS SPECIALTY to DEL RIO TRACON\n  <KDLF from NW> DLF R-301 (LAEKE) at FL240 OR any altitude and below 8,000\n  <KDLF from NNW> DLF R-346 (TAELR) at FL240 OR any altitude and below 8,000\n  <KDLF from NE> DLF R-040 (WEBOX) at any even altitude between 6,000 and FL240\n  <KDLF from E> DLF R-088 (FASAG) at 6,000\n  <All Other Airports> From Rio Grande clockwise to DLF R-026 at or below 8,000\n  <All Other Airports> From DLF R-027 clockwise to Rio Grande at 6,000\n  <All Other Airports> WEBOX DLF dct destination @ any west alt between 6,000 and FL240
+.rsgssatt .note ROCKSPRINGS SPECIALTY to SAN ANTONIO TRACON\n  <POPPO#> Jets & T-Props DV\n  <DNKIN#> Jets & T-Props DV\n  <STV2> Jets cross STV @ 10,000 | T-Props x STV @ 8,000 | Others x STV @ 6,000\n  <CSI3> Cross BENEY @ -> Jets 10,000 | T-Props 8,000 | Others 6,000\n  <HONDO CORRIDOR> Jets & T-Props @ 7,000 | Others @ 5,000\n  <All Others> Coordinated on an individual aircraft basis
+.rsgssjtt .note ROCKSPRINGS SPECIALTY to SAN ANGELO TRACON\n  <ALL> Direct Destination D130. If lower, level at an altitude correct for direction
+.rsgsgrkt .note ROCKSPRINGS SPECIALTY to GRAY RAPCON\n  <ALL> Direct Destination D130. If lower, level at an altitude correct for direction
+
+.ausszfw .note AUSTIN SPECIALTY to ZFW\n  <DFW-N Prop> NAVYS CQY# | AOB FL180\n  <DFW-S Prop> NAVYS YEAGR# | AOB FL180\n  <DAL-N RNAV> NAVYS/CHEVE MNNDO# | AOB FL230\n  <DAL-S RNAV> NAVYS/CHEVE REDDN# | AOB FL230\n  <DAL Non-RNAV> NAVYS YEAGR# | AOB FL230\n  <DSATS RNAV> NAVYS/CHEVE.REEKO#, NF - EESAT# , SF - LOADS# | AOB FL230\n  <DSATS Non-RNAV> NAVYS.DODJE# or YEAGR# | AOB FL230\n  <GRKT/ACTT/GGGT> Direct dest. D130, or at a lower altitude correct for direction
+.ausslfks .note AUSTIN SPECIALTY to LUFKIN SPECIALTY\n  <D10> CLLT departures assigned a westbound altitude
+.ausscrps .note AUSTIN SPECIALTY to CORPUS SPECIALTY\n  <PSX-95/SOTEX-84> Level at a westbound altitude
+.aussrsgs .note AUSTIN SPECIALTY TO ROCKSPRINGS SPECIALTY\n  <NO REQUIRED ROUTES/ALTITUDES>
+.aussaust .note AUSTIN SPECIALTY TO AUSTIN TRACON\n  <SEWZY#> Jets & T-Props DV\n  <WLEEE7> Jets DV | T-Props DV or level at 11,000\n  <BLEWE#> EDC arrivals will be handed off to GRKT, all others cross SEWZY @ 13,000\n  <GABOO#> Cross SEWZY @ 13,000\n  <POTRR2> Jets cross WLEEE @ 12k, T-Props cross WLEEE @ 11k\n  <All Airports> From the north via SEWZY Direct, cross SEWZY @ 13k\n  <All Airports> From the northeast Non-Jets only. Via TOAMY level at 10,000\n  <All Airports> From the east via WLEEE Direct, Jet @ 12k, T-Prop @ 11k, Piston @ 9k
+.ausssatt .note AUSTIN SPECIALTY TO SAN ANTONIO TRACON\n  <QERVO3> Jets DV\n  <MARCS2> Jets cross MARCS @ 13,000\n  <All T-Props & Props> **H/O** AUST. Cross 20NE MARCS @ 13,000. KBAZ ARRs cross 30NE MARCS @ 13,000
+.aussi90t .openURL https://api.houston.center/media/resources/2025_AUSS_-__I90_QRC.docx.pdf
+.aussi90c .note AUSTIN SPECIALTY TO I90 COLLEGE\n  <ALL> Direct Destination D90. If lower, level at an altitude correct for direction
+.aussi90i .note AUSTIN SPECIALTY TO I90 INDUSTRY\n  <ALL> Direct Destination D90. If lower, level at an altitude correct for direction
+.aussi90b .note AUSTIN SPECIALTY TO I90 BEAUMONT\n  <17k+> Via IAH BPT direct destination. Cross IAH @ 17k, handoff to Departure East\n  <RNAV 16k-> Via HIPPS T254 CREPO direct destination. Cross HIPPS @ 9k, H/O Tomball\n  <Non-RNAV 16k-> Via TNV V306 DAS direct destination level @ 9k. H/O College Sat
+.aussi90o .note AUSTIN SPECIALTY TO I90 OVERFLIGHTS\n  <RNAV> Via HIPPS T254 CREPO, cross HIPPS @ 9,000. H/O Tomball\n  <Non-RNAV> TNV V306 DAS, cross 5NM west TNV @ 9k, switch to College Sat before BLUBL
+.aussgrkt .note AUSTIN SPECIALTY TO GRAY RAPCON\n  <ALL> Direct Destination D130. If lower, level at an altitude correct for direction
+
+.lfkszfw .openURL https://api.houston.center/media/resources/LFKS-_ZFW_QRC.pdf
+.lfksnews .note LUFKIN SPECIALTY TO NEW ORLEANS SPECIALTY\n  <MSYT via AWDAD1 AOA FL240> Cross J22 AOB FL290, descending to FL240. Temp alt to which descent can be approved. NEW specialty control for descent to temp alt.\n  <MSYT via TRSSH# AOA FL240> AOB FL290 descending to FL240\n  <MOBT or GPTT> AOB FL330
+.lfkslchs .note LUFKIN SPECIALTY TO LAKE CHARLES SPECIALTY\n  <MSYT> From IZD-26 entering GLS-68 east of LCH: AOB FL330
+.lfksauss .note LUFKIN SPECIALTY TO AUSTIN SPECIALTY\n  <AUST> Entering AUS-78 AOB FL320\n  <AUST or SATT> Temp alt to which descent can be approved. AUS sector has control for descent to temp alt in data block\n  <GRKT> Non-I90 departures routed via LOA VORTAC direct destination AOB FL220
+.lfkszme .note LUFKIN SPECIALTY TO ZME\n  <MEIT> AOB FL230, D190\n  <JANT, VKS, TVR> AOB FL230, D110. JANT Props AOB FL230, D60\n  <BHM> MEI LYMPH KBHM
+.lfkscrps .note LUFKIN SPECIALTY TO CORPUS SPECIALTY\n  <NO REQUIRED ROUTES/ALTITUDES>
+.lfkspoet .note LUFKIN SPECIALTY TO POLK ARAC\n  <ALL> Direct Destination D110. If lower, level at an altitude correct for direction
+.lfkslcht .note LUFKIN SPECIALTY TO LAKE CHARLES TRACON\n  <ALL> Direct Destination D110. If lower, level at an altitude correct for direction
+.lfkslftt .note LUFKIN SPECIALTY TO LAFAYETTE TRACON\n  <ALL> Direct Destination D110. If lower, level at an altitude correct for direction
+.lfksbtrt .note LUFKIN SPECIALTY TO BATON ROUGE TRACON\n  <ALL> Direct Destination D110. If lower, level at an altitude correct for direction
+.lfksmlut .note LUFKIN SPECIALTY TO MONROE TRACON\n  <ALL> Direct Destination D130. If lower, level at an altitude correct for direction
+.lfksi90t .openURL https://api.houston.center/media/resources/LFKS_-__I90_QRC.pdf
+.lfksi90c .note LUFKIN SPECIALTY TO I90 COLLEGE\n  <ALL> Direct Destination D90. If lower, level at an altitude correct for direction
+.lfksi90i .note LUFKIN SPECIALTY TO I90 INDUSTRY\n  <ALL> Direct Destination D90. If lower, level at an altitude correct for direction
+.lfksi90b .note LUFKIN SPECIALTY TO I90 BEAUMONT\n  <ALL> Direct destination D110. If lower, level at an altitude correct for direction
+.lfksi90o .note LUFKIN SPECIALTY TO I90 OVERFLIGHTS\n  <RNAV> Via CREPO T254 CLL, cross CREPO @ 11k, H/O Beaumont Sat\n  <Non-RNAV> KUUPR V306 TNV, cross KUUPR @ 11k, H/O Beaumont Sat
+
+.lchslfks .note LAKE CHARLES SPECIALTY TO LUFKIN SPECIALTY\n  <AUST> AOB FL360\n  <D10> Do not shortcut beyond AEX\n  <CLLT> Route via OSCER direct destination
+.lchsnews .note LAKE CHARLES SPECIALTY TO NEW ORLEANS SPECIALTY\n  <MOBT> AOB FL330\n  <BTRT> AOB FL230 descending to FL190\n  <KGPT or KBIX> Route via HRV direct destination. AOB FL290 descending to FL240
+.lchsocns .note LAKE CHARLES SPECIALTY TO OCEAN SPECIALTY\n  <I90 Departures to OCNW-79> Climbing to FL310 or lower cruise. OCNW-79 control climb\n  <ALL> No shortcuts for international flights to OCN Specialty
+.lchscrps .note LAKE CHARLES SPECIALTY TO CORPUS SPECIALTY\n  <AUST or SATT> AOA FL180 routed to remain outside CRP specialty
+.lchslcht .note LAKE CHARLES SPECIALTY TO LAKE CHARLES TRACON\n  <ALL> Direct Destination D110. If lower, level at an altitude correct for direction
+.lchslftt .note LAKE CHARLES SPECIALTY TO LAFAYETTE TRACON\n  <ALL> Direct Destination D110. If lower, level at an altitude correct for direction
+.lchsi90t .openURL https://api.houston.center/media/resources/LCHS_-__I90_QRC.pdf
+.lchsi90c .note LAKE CHARLES SPECIALTY TO I90 COLLEGE\n  <ALL> Route through LFK or CRP specialty
+.lchsi90i .note LAKE CHARLES SPECIALTY TO I90 INDUSTRY\n  <ALL> Route through LFK or CRP specialty
+.lchsi90b .note LAKE CHARLES SPECIALTY TO I90 BEAUMONT\n  <ALL> Direct destination D110. If lower, level at an altitude correct for direction
+.lchsi90o .note LAKE CHARLES SPECIALTY TO I90 OVERFLIGHTS\n  <RNAV> Via SBI T466 LDRET descending to 11k, H/O Beaumont Sat\n  <Non-RNAV> Via SBI V70 PSX at any altitude correct for direction except 12,000
+
+.crpsrsgs .note CORPUS SPECIALTY TO ROCKSPRINGS SPECIALTY\n  <To D10 or on J23/131/21/25> Entering ALAMO-74/SLIMM-76 eastbound altitudes\n  <AUS via DXEEE3> CRP-59 will descend to FL240 and enter a temp alt of FL200. STV-50 has control for descend via clearance and updates to the data block
+.crpsauss .note CORPUS SPECIALTY TO AUSTIN SPECIALTY\n  <D10> Entering AUS-78 (FL240+) routed over or east of a TNV..LOA line
+.crpslchs .note CORPUS SPECIALTY TO LAKE CHARLES SPECIALTY\n  <NO REQUIRED ROUTES/ALTITUDES>
+.crpslfks .note CORPUS SPECIALTY TO LUFKIN SPECIALTY\n  <NO REQUIRED ROUTES/ALTITUDES>
+.crpsocns .note CORPUS SPECIALTY TO OCEAN SPECIALTY\n  <ALL> No shortcuts for international flights to OCN Specialty
+.crpsmty .note CORPUS SPECIALTY TO MONTERREY\n  <TO NLD / REX / MAM APP> Type crpsnldt crpsrext or crpsmamt\n  <MMMY, MMAN or MMIO> Routed via NLD..NOTAL or REX..ITPIS\n  <All Others> On an airway or direct NLD / REX / MAM to join an airway\n  <Radar Handoffs> RF (CID) MTY, then ASEL aircraft and type alias command "homex (SectorID) (FIX)", westbound altitudes only
+.crpsnldt .note CORPUS SPECIALTY TO NLD APPROACH\n  <All Flights> Coordinate callsign, LRD estimate, and altitude, 10mins prior bndy\n  <MMNL Arrs> Routed via LRD NLD MMNL, cross LRD at 4,000\n  <LRD Deps to MEX> Request a departure release from NLD Approach
+.crpsrext .note CORPUS SPECIALTY TO REX APPROACH\n  <All Flights> Coordinate callsign, MFE estimate, and altitude, 15mins prior bndy\n  <MMRX Arrs/Deps> Worked by CRP TRACON, type "crptrext"
+.crpsmamt .note CORPUS SPECIALTY TO MAM APPROACH\n  <All Flights> Coordinate callsign, BRO estimate, and altitude, 15mins prior bndy\n  <MMMA Arrs/Deps> Worked by CRP TRACON, type "crptmamt"
+.crpsaust .note CORPUS SPECIALTY TO AUSTIN TRACON\n  <ALL> Direct Destination AOB 8,000
+.crpssatt .note CORPUS SPECIALTY TO SAN ANTONIO TRACON\n  <CRVZA2> Jets & T-Props DV\n  <LEMIG2> Jets LEMIG @ 10,000 | T-Props LEMIG @ 7,000 | Others LEMIG @ 6,000\n  <All Others> Coordinated on an individual aircraft basis
+.crpsnqit .note CORPUS SPECIALTY TO KINGSVILLE TRACON\n  <ALL> Direct Destination D160. If lower, level at an altitude correct for direction
+.crpsi90t .openURL https://api.houston.center/media/resources/CRPS_-__I90_QRC.pdf
+.crpsi90c .note CORPUS SPECIALTY TO I90 COLLEGE\n  <ALL> Direct Destination D90. If lower, level at an altitude correct for direction
+.crpsi90i .note CORPUS SPECIALTY TO I90 INDUSTRY\n  <ALL> Direct Destination D90. If lower, level at an altitude correct for direction\n  <ELA, 66R> Direct destination descending to 5,000
+.crpsi90b .note CORPUS SPECIALTY TO I90 BEAUMONT\n  <17k+> Via IAH BPT direct destination, handoff AUS Specialty\n  <16k-> Via PSX V70 SBI at or below 15,000 correct for direction of flight
+.crpsi90o .note CORPUS SPECIALTY TO I90 OVERFLIGHTS\n  <RNAV> Via LDRET T466 SBI level at 7,000 or lower, correct for direction\n  <Non-RNAV> Via PSX V70 SBI at 9,000 feet and below, or at 15,000
+.crpscrpt .note CORPUS SPECIALTY TO CORPUS TRACON\n  <From West> Direct destination level at 5,000\n  <From NW> SKIDS V163 CRP. Jets cross SKIDS @ 12k | T-Props @ 10k | Pistons @ 6k\n  <From North> Direct CRP VORTAC between CRP352-005R descending to 7,000\n  <From NE> BETZY V20 CRP. Jets cross BETZY @ 12k | T-Props @ 10k | Pistons @ 6k\n  <RKP, TFP, RAS, XS67, T69> Direct destination at 4,000\n  <Landing Valley> Type "crpsvlyt"
+.crpsvlyt .note CORPUS SPECIALTY TO VALLEY TRACON\n  <ALL> Direct destination D160. If lower, level at an altitude correct for direction.\n  <MFE> From the northwest descending to 7,000
+.crpsdlft .note CORPUS SPECIALTY TO DEL RIO TRACON\n  <KDLF> Via PRIER KDLF @ 6,000\n  <ALL OTHERS> Direct destination @ 6,000
+
+.crptrext .note CORPUS TRACON TO REX APPROACH\n  <All Flights> Coordinate callsign, MFE estimate, and altitude, 15mins prior bndy\n  <MMRX Arrs/Deps> Via MFE V387 REX, cross MFE AOB 150 descending 4,000
+.crptmamt .note CORPUS TRACON TO MAM APPROACH\n  <All Flights> Coordinate callsign, BRO estimate, and altitude, 15mins prior bndy\n  <MMMA Arrs/Deps> Via BRO V163 MAM, cross MAM AOB 150 descending 3,000
+
+.newslchs .note NEW ORLEANS SPECIALTY TO LAKE CHARLES SPECIALTY\n  <MSYT Deps Westbound Req. FL240+> Assign a heading that will parallel or diverge from the arrival route. Climb to FL230. Handoff to LCH specialty. LCH specialty control for turns on course leaving FL180\n  <BPT, BMT, DWH, CXO, T78, 6R3> AOB FL320\n  <LCHT> BTR-34 sector will descend to 11,000 and handoff to LCH TRACON\n  <D10> Do not shortcut beyond AEX
+.newslfks .note NEW ORLEANS SPECIALTY TO LUFKIN SPECIALTY\n  <MSYT Deps Northwestbound Req. FL240+> Assign a heading that will parallel or diverge from the arrival route. Climb to FL230.  Enter a temp alt up to FL340, but not exceeding the requested altitude, to which climb can be approved. Handoff to LFK specialty. LFK specialty control for climb to temp alt in data block and turns leaving FL180\n  <POET, LFTT, LCHT, SHVT, MLUT> AOB FL340\n  <D10> Do not shortcut beyond AEX
+.newsztl .note NEW ORLEANS SPECIALTY TO ZTL\n  <ATL RNAV Jet FL240+> Departing from I90 or east of I90 via SHYRE.GNDLF#/HOBTT#\n  <ATL all others FL240+> Departing from I90 or east of I90 via MVC.V222.TIROE..KATL\n  <MSYT & GPTT Deps to KATL> Assigned FL330 or lower cruise\n  <MOB, BFM, CQF, JKA Deps> Stopped at FL270 or lower altitude\n  <Non-KATL Traffic> Routed to remain laterally clear of STAR into KATL
+.newszme .note NEW ORLEANS SPECIALTY TO ZME\n  <JANT, VKS, TVR west of J31 (LBY)> AOB FL230, D110. JANT Props AOB FL230, D60\n  <BHM> MEI LYMPH KBHM\n  <MEIT east of J35 (MCB)> AOB FL230, D190
+.newszjx .note NEW ORLEANS SPECIALTY TO ZJX\n  <PNST> Route via V198, V241, or LOXLY..PENSI cross LOXLY @ 11,000 and 250KT\n  <CEW, VPST at FL240+> J2.CEW AOB FL240\n  <ECP> V198/J2 DEFUN CUGAR KECP AOB FL250\n  <MCO, TPA, DAB, PIE> From sector LEV24 or VOODO92 routed to remain north of MIA, FLL, EYW, FXE traffic (Y280)\n  <MIA, FLL, EYW, FXE> From sector LEV24 or VOODO92 routed to remain south of MCO, TPA, DAB, PIE traffic (Y290)
+.newsocns .note NEW ORLEANS SPECIALTY TO OCEAN SPECIALTY\n  <ALL> No shortcuts for international flights to OCN Specialty
+.newsmsyt .openURL https://api.houston.center/media/resources/NEWS-MSYT_QRC_JULY23.pdf
+.newslftt .note NEW ORLEANS SPECIALTY TO LAFAYETTE TRACON\n  <ALL> Direct Destination D110. If lower, level at an altitude correct for direction
+.newsbtrt .note NEW ORLEANS SPECIALTY TO BATON ROUGE TRACON\n  <ALL> Direct Destination D110. If lower, level at an altitude correct for direction
+.newsgptt .note NEW ORLEANS SPECIALTY TO GULFPORT TRACON\n  <ALL> Direct Destination D110. If lower, level at an altitude correct for direction
+.newsmobt .note NEW ORLEANS SPECIALTY TO MOBILE TRACON\n  <ALL> Direct Destination D110. If lower, level at an altitude correct for direction
+
+.ocnszjx .note OCEAN SPECIALTY TO ZJX\n  <PNST, VPST, CEW, ECP> Route through NEW Specialty
+.ocnszma .note OCEAN SPECIALTY TO ZMA\n  <NO REQUIRED ROUTES/ALTITUDES>
+.ocnshav .note OCEAN SPECIALTY TO HAVANA\n  <ALL AIRCRAFT> Radar handoffs. Established on an airway at an even altitude\n  <MUHA> Route via an appropriate STAR after SHARQ\n  <MMUN> SHARQ UM463 WALKY UB879 NOSAT CUN MMUN
+.ocnsmid .note OCEAN SPECIALTY TO MERIDA\n  <M219 Southbound> Not Allowed\n  <L214 Overflights> Between 0900-1600 local via PISAD UL333 URTOK UT29 SIGMA\n  <All Handoffs> On an airway, ASEL aircraft and type alias command "ocnhomex (SectorID) (FIX) (ESTIMATE)", terminate radar service and transfer comms
+.ocnsmty .note OCEAN SPECIALTY TO MONTERREY\n  <MMMX> Route via TBD M345 AXEXO UM345 PAZ UT154 ENAGA MMMX or TBD M575 CLONN UT26 KEKRI UM345 PAZ UT154 ENAGA MMMX\n  <M575 Traffic> Routed via M575 CLONN UT26 KEKRI\n  <All Handoffs> On an airway, ASEL aircraft and type alias command "ocnhomex (SectorID) (FIX) (ESTIMATE)", terminate radar service and transfer comms
+.ocnscrps .note OCEAN SPECIALTY TO CORPUS SPECIALTY\n  <NO REQUIRED ROUTES/ALTITUDES>
+.ocnslchs .note OCEAN SPECIALTY TO LAKE CHARLES SPECIALTY\n  <I90> On an appropriate STAR
+.ocnsnews .note OCEAN SPECIALTY TO NEW ORLEANS SPECIALTY\n  <NO REQUIRED ROUTES/ALTITUDES>
+.ocnsmsyt .note OCEAN SPECIALTY TO MSY TRACON\n  <ALL ARRIVALS> Routed via TBDCC, HRVLC, HRVCC, or HRVRB level at any altitude
+.ocnsi90t .note OCEAN SPECIALTY TO I90 TRACON\n  <ALL> Direct destination at any altitude
+
+
+; --QRCs--
+.ausinfo .openURL https://api.houston.center/media/resources/AUS_QRC_6.7.26.pdf
+.crpinfo .openURL https://api.houston.center/media/resources/CRP_QRC.pdf
+.houinfo .openURL https://api.houston.center/media/resources/HOU_QRC_njw1Sso.pdf
+.iahinfo .openURL https://api.houston.center/media/resources/IAH_QRC.docx_1.pdf
+.msyinfo .openURL https://api.houston.center/media/resources/MSY_QRC_JULY23.pdf
+.satinfo .openURL https://api.houston.center/media/resources/SAT_QRC_3SAMY8b.pdf
+.dlfinfo .openURL https://api.houston.center/media/resources/DLF_ATCT_RAPCON_SOP.pdf
+.strips .openURL https://api.houston.center/media/resources/ZHU_Flight_Strips.pdf
