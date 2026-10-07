@@ -6,3 +6,5 @@
 ; Last Modified: 09/06/2026
 ; File may be distributed only as freeware. For use ONLY on the VATSIM Network.
 ; ** Not for real world navigation **
+
+.zhuweb .OPENURL http://houston.center
