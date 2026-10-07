@@ -1,0 +1,29 @@
+; ---AUTO TRACK COMMANDS---
+.zhutrackday .autotrack KLRD KVCT KIAH KHOU KCLL KBPT KCXO KDWH KTME KSGR KEFD KGLS KAUS KEDC KHYI KGTU KSAT KSKF KSSF KRND KBAZ KMOB KPQL KBFM KGPT KBIX KHSA KBTR KLFT KARA KLCH KCWF KCRP KHRL KMFE KBRO KNGP KNGW KNQI KNOG KDLF KMSY KNEW KNBG KHUM KHDC KAEX KPOE  
+.zhutrackmid .autotrack KIAH KHOU KEFD KAUS KSAT KSSF KRND KCRP KMSY KAEX
+.i90track .autotrack KIAH KHOU KCLL KBPT KCXO KDWH KTME KSGR KEFD KGLS
+.austrack .autotrack KAUS KEDC KHYI KGTU
+.sattrack .autotrack KSAT KSKF KSSF KRND KBAZ
+.mobtrack .autotrack KMOB KPQL KBFM
+.gpttrack .autotrack KGPT KBIX KHSA
+.btrtrack .autotrack KBTR
+.lfttrack .autotrack KLFT KARA
+.lchtrack .autotrack KLCH KCWF
+.vlytrack .autotrack KCRP KHRL KMFE KBRO KNGP KNGW
+.nqitrack .autotrack KNQI KNOG
+.dlftrack .autotrack KDLF
+.msytrack .autotrack KMSY KNEW KNBG KHUM KHDC
+.poetrack .autotrack KAEX KPOE
+.i90notrack .autotrack -KIAH -KHOU -KCLL -KBPT -KCXO -KDWH -KTME -KSGR -KEFD -KGLS
+.ausnotrack .autotrack -KAUS -KEDC -KHYI -KGTU
+.satnotrack .autotrack -KSAT -KSKF -KSSF -KRND -KBAZ
+.mobnotrack .autotrack -KMOB -KPQL -KBFM
+.gptnotrack .autotrack -KGPT -KBIX -KHSA
+.btrnotrack .autotrack -KBTR
+.lftnotrack .autotrack -KLFT -KARA
+.lchnotrack .autotrack -KLCH -KCWF
+.vlynotrack .autotrack -KCRP -KHRL -KMFE -KBRO -KNGP -KNGW
+.nqinotrack .autotrack -KNQI -KNOG
+.dlfnotrack .autotrack -KDLF
+.msynotrack .autotrack -KMSY -KNEW -KNBG -KHUM -KHDC
+.poenotrack .autotrack -KAEX -KPOE
