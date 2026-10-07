@@ -1,0 +1,156 @@
+; ---PRE-CLEARANCE---
+.alt $1 altimeter $altim($1)
+.metar Metar for $1: $metar($1)
+.clr clearance on request number $1
+.clravail clearance available, advise when ready to copy. 
+.amend I have a amendment to your flight plan, advise ready to copy.
+.fullam I have a full re-route clearence for your flight plan, advise ready to copy.
+.faroute .openURL https://www.flightaware.com/analysis/route.rvt?origin=$dep&destination=$arr
+
+
+; ---IFR CLEARANCE---
+.ifrv cleared to $arr via $route, climb via SID, departure $freq($1), squawk $squawk
+.ifrvx cleared to $arr via $route, climb via SID except maintain $1, departure $freq($2), squawk $squawk
+.ifr cleared to $arr via $route, maintain $1, then expect $cruise 10 mins after departure, departure $freq($2), squawk $squawk
+.ifrvu cleared to $arr via $route, climb via SID, departure offline, squawk $squawk
+.ifru cleared to $arr via $route, maintain $1, then expect $cruise 10 mins after departure, departure offline, squawk $squawk
+.ifrexu cleared to $arr via $route, climb via SID except maintain $1, departure offline, squawk $squawk
+.rcor readback correct, push and start at pilot's discretion, contact $freq($1) for taxi. 
+.rcorg readback correct, push and start at pilot's discretion, call ready for taxi, expect runway $1 for departure. 
+.h4rel readback correct, hold for release. Advise this frequency when number 1 for the runway. Frequency change approved.
+
+
+; ---DEPARTURE RELEASE---
+//Released at (# of minutes from current time) Void at (# of minutes from current time). Standard entry = .rel4dep 0 10
+.rel4dep Released for departure at $ftime($1), clearance void if not off by $ftime($2), time now $time. Frequency change approved.
+
+
+; ---GROUND---
+.td runway $uc($1), taxi via $uc($2) $uc($3) $uc($4) $uc($5) $uc($6) $uc($7) $uc($8) $uc($9)
+.ta taxi to parking via $uc($1) $uc($2) $uc($3) $uc($4) $uc($5) $uc($6) $uc($7) $uc($8) $uc($9)
+.tapd taxi to parking at pilots discretion, cross all runways.
+.hs hold short $uc($1)
+.hp hold position.
+.ct continue taxi.
+.gwt give way to ($1)
+.crs cross runway $uc($1)
+
+
+; ---LOCAL---
+.ctl runway $uc($1), cleared to land. Wind $winds.
+.cto runway $uc($1), cleared for takeoff. Wind $winds.
+.ctorh fly runway heading, runway $uc($1), cleared for takeoff. Wind $winds.
+.ctohdg fly heading $2, runway $uc($1), cleared for takeoff. Wind $winds.
+.ctotl turn left heading $2, runway $uc($1), cleared for takeoff. Wind $winds.
+.ctotr turn right heading $2, runway $uc($1), cleared for takeoff. Wind $winds.
+.ctor RNAV to $uc($2), runway $uc($1), cleared for takeoff. Wind $winds.
+.ctomrt make right traffic, runway $uc($1), cleared for takeoff. Wind $winds.
+.ctomlt make left traffic, runway $uc($1), cleared for takeoff. Wind $winds.
+.ctoc cancel takeoff clearance.
+.gafpm go around, fly the published missed approach.
+.gavec go around. Fly heading $1, maintain $2, contact $radioname($3) $freq($3).
+.luaw runway $uc($1), line up and wait.
+.wel welcome to $1, exit $2 when able.
+.xrhs cross runway $uc($1), hold short $uc($2), contact $3 on the other side.
+.xr cross runway $uc($1), contact $2 on the other side.
+.elb enter left base runway $uc($1)
+.erb enter right base runway $uc($1)
+.erd enter right downwind runway $uc($1)
+.eld enter left downwind runway $uc($1)
+.roll .msg $atccallsign($1) *** $aircraft rolling runway $uc($2).
+
+
+; ---TRACON--- 
+.rc radar contact.
+.rcsalt  radar contact, say altitude leaving.
+.rcv radar contact $dist($1)nm $bear($1) of $uc($1) altitude $calt.
+.rcl radar contact lost.
+.cils $distance($1)nm from $uc($1), fly heading $2 maintain $3 until established, cleared ILS runway $uc($4) approach.
+.rnvptac cleared direct $uc($1), cross $uc($1) at or above $2, cleared $3 runway $uc($4) approach.
+.apat $uc($arr) airport is at $oclock($arr), $dist($arr)nm, report in sight.
+.cvis cleared visual approach runway $uc($1).
+.notwrifr no visible traffic between you and the field, report IFR cancellation in the air or on the ground this frequency. Frequency change approved.
+.dept depart $uc($1) heading $2.
+.vr vectors for $1 $2 $3 $4 $5 $6 $7 $8 $9
+.xapp expect $1 runway $uc($2), $arr altimeter $altim($arr).
+.xils expect ILS runway $uc($1).
+.xvis expect visual approach runway $uc($1).
+.tra traffic alert, $1 o'clock $2 miles, advise you immediately $3
+.laa low altitude alert. Check your altitude immediately. The MVA in your area is $1.
+.veratis verify you have information $uc($1).
+.tr turn right heading $1.
+.tl turn left heading $1.
+.prd proceed direct $uc($1).
+.cd cleared direct $uc($1).
+.fh fly heading $1.
+.fhjr fly heading $1, join the $uc($2) $3 radial $4.
+.cm climb and maintain $1.
+.cma climb and maintain $1,000.
+.dm descend and maintain $1.
+.dma descend and maintain $1,000.
+.dmpd descend at pilot's discretion, maintain $1.
+.vfrcan radar service terminated, squawk and maintain VFR, frequency change approved.
+.tll turn left heading $1, intercept runway $uc($2) localizer.
+.trl turn right heading $1, intercept runway $uc($2) localizer.
+.fhl fly heading $1, intercept runway $uc($2) localizer.
+
+
+; ---ENROUTE---
+.ocnfix	.ff CLONN AXEXO IPSEV DUTNA KEHLI IRDOV PISAD MYDIA SHARQ MUSYL CATFS SEAGL ANKRR RUMMM PEGLG KELPP KENGS KLAMS WAHOO DOLPH ALGAE NAVYL SNAKR YENNE NATLE BUUOY MINOW CCUDA CULLY SNOMN TRESR DAGGR HOOCK PLNDR NAVYL CIGAR BACCA REMIS ROZZI BUNNZ NAITE BLVNS
+.zhufix	.ff GAPPI BIRDY CAMDY ZEDKU BITER SEWZY KALLA GARDS AMUSE BASIS JASMO HOOKK MUNCH DARTE DARTR PALMS COWZZ LISSE SSLAM COACH GILCO EISEN ROYCE LESLO AVVOS BAGLY MAMMS LEIGH BORTE AGGEE GLAND RIICE TMACC STROS JACEN MATON HYWAY OWELL JEPNI REDOC JOLTE JAKPO COLET BDDRO LITLD SEALY CUZZZ TOONA WLLIS HELTN YAWNS AWDAD RYTHM SLIDD SNAKI SULPA TIBBY TICKS WALKE KINTE SPECK DOLAR JASPO FAWPE BENEY LEMIG MARCS ALAMO WAKKS NADBE HENLY GOBBY SEEDS MILET YENNS LEJON BDDRO COLET CUZZZ HELTN LITLD MONNT SEALY TOONA VUH WLLIS YAWNS COLET SHYNR SKUBA GTARR LINGG
+.i90 .ff SCAMM BLUBL KIDDZ RIICE DRLLR MSCOT GUSHR TTORO SPICR DREMR WYLSN RENNK KYANN PEETY RAECN HUDZY SKNRD TWSTD WHACK CESAN GILLL HKORY WOLDE PUCKS BAYYY TKNIQ ELOCO FIGGG PEECE SAALT RETYR GMANN BELLR SKUBA BOZZZ GOMER CLEEP TRIOS BOLOS AGGIT FREEP PRARI
+.x Cross $uc($1) at and maintain $2 $3 $4 $5 $6 $7 $8 $9
+.xaoa Cross $uc($1) at or above $2 $3 $4 $5 $6 $7 $8 $9
+.xspd Cross $uc($1) at and maintain $2 at $3 KTS.
+.xdme Cross $1 DME of $uc($1) at $3.
+.dvia Descend via the $uc($1) arrival. $uc($arr) altimeter $altim($arr).
+.dviax Descend via the $uc($1) arrival except $2
+.cmf Climb and maintain FL$1.
+.dmf Descend and maintain FL$1.
+.dvia Descend via the $1 arrival, $uc($arr) altimeter $altim($arr).
+.homex .msg $atccallsign($1) handoff, $dist($2) $bear($2) $uc($2), $aircraft $alt.
+.ocnhomex .msg $atccallsign($1) $aircraft estimated $uc($2) at $3, $alt.
+.holdap Cleared to $uc($1), hold $2 of $uc($1) as published. Expect further clearance at $3 zulu.
+
+
+; ---MISC---
+.alias .openURL http://alias.houston.center
+.rvm .openURL http://rvm.houston.center
+.h .lasttx
+.who .lasttx
+.ltx .lasttx
+.aipref .openURL http://my.vatsim.net/pilots/aip/$uc($1)
+.ho contact $radioname($1) on $freq($1), have a good flight! 
+.hodep contact Departure  $freq($1) Cya!
+.depoff no departure control available, monitor unicom 122.8, Thanks for flying! 
+.rts reset transponder, $squawk.
+.lmas leaving my airspace, no further ATC available, radar service terminated, frequency change approved, thanks for flying!
+.ecb you're exiting Class B airspace, radar service is terminated, squawk VFR, frequency change approved, thanks for flying!
+.ecc you're exiting Class C airspace, radar service is terminated, squawk VFR, frequency change approved, thanks for flying!
+.close **NOTAM** Will be closing in $1 minutes.
+.closed **NOTAM** Closed. Have a good day.
+.closing **NOTAM** Closing at $1.
+.shift **NOTAM** Shift change in progress. All aircraft please stand by.
+.rst radar service is terminated, squawk VFR, frequency change approved.
+.spa say position and altitude.
+.sas say indicated air speed.
+.sms say mach.
+.spo say position.
+.smc squawk mode C.
+.ss squawk standby.
+.si squawk ident.
+.sqi squawk $squawk and Ident.
+.sq squawk $squawk.
+.rtc reset transponder, squawk $squawk.
+.rpt report over $1.
+.rptabm report abeam $1.
+.ifrcangnd IFR cancellation received, thanks for flying.
+.icanair IFR cancellation received. Radar service terminated, squawk and maintain VFR, frequency change approved, good day.
+.dist you are $dist($1)nm from $1.
+.bear you are $bear($1) of $1.
+.clock $1 is at your $oclock($1).
+.route $route.
+.newatis ATIS information $atiscode is current $winds, altimeter $altim.
+.ratis report receiving ATIS $1.
+.rmatis report receiving ATIS $atiscode.
+.cyrv can you receive voice?
