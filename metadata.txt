@@ -1,0 +1,8 @@
+; www.houston.center Houston Air Route Traffic Control Center Alias File
+; Facilities Engineer: Dave Wegner
+; Contributors: Clay Brock, Trey Hensley, Ethan Hawes, Tom Johnson, Elijah Whitaker
+; AIRAC CYCLE 2609
+; Release Date: 09/06/2026
+; Last Modified: 09/06/2026
+; File may be distributed only as freeware. For use ONLY on the VATSIM Network.
+; ** Not for real world navigation **
